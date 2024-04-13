@@ -1,0 +1,120 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: rgb(251, 251, 251);
+    height: 1800px;
+    width: 600px;
+    border-radius: 10px ; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.firstel img{
+        width: 95%;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 15px;
+       border-radius: 8px;
+    }
+
+   .text1  {
+        font-family: "Young Serif", serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        text-align:left ;
+        margin-left: 15px;
+      }
+      .text1 p{
+        font-size: small;
+      }
+      
+   
+      .secondele {
+        
+        background-color: rgb(247, 235, 245); 
+        padding: 15px; 
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .secondele h3{
+        color: brown;
+    }
+ .thirdele{
+    margin-left: 16px;
+ }
+ .thirdele h2{
+    color: brown;
+ }
+ .thirdele ul li{
+    margin: 5px;
+ }
+    
+ hr{
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+ .fourthele {
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+ .fourthele h2{
+    color: brown;
+ }
+ .fourthele ol li{
+    padding: 3px;
+
+ }
+
+ .fifthele{
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+ .fifthele h2{
+    color: brown;
+ }
+
+ .fifthele p{
+    font-family: "Young Serif", serif;
+    font-size: small;
+ }
+
+
+.fifthele table {
+    width: 60%;
+}
+
+.fifthele td {
+
+    padding: 5px;
+}
+
+.fifthele td:first-child {
+   
+    width: 120px; 
+}
+
+.fifthele td:nth-child(2) {
+    text-align: right;
+}
+
+.attribute{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: 1420px;
+    }
+}
+
+/* Styles for smaller screens (e.g., mobile) */
+@media (max-width: 576px) {
+    .container {
+        width: 90%; 
+    }
+   
+}
